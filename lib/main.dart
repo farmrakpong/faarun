@@ -1,7 +1,19 @@
+import 'dart:async';
+import 'package:faarun/constant/constant.dart';
+import 'package:faarun/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:faarun/pages/splash_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter/services.dart';
+
+
 
 void main() {
-  runApp(MyApp());
+
+
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitDown,DeviceOrientation.portraitUp]).then((_) => runApp(MyApp()));
+//  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -20,15 +32,20 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
         // This makes the visual density adapt to the platform that you run
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
           fontFamily: 'DB_Helvethaica_X'
       ),
-      home: MyHomePage(title: 'FAARUN APP'),
+//      home: MyHomePage(title: 'FAARUN APP'),
+      home: SplashPage(),
       debugShowCheckedModeBanner: false,
+      routes: <String, WidgetBuilder>{
+        HOME_PAGE: (BuildContext context) => new HomePage(),
+        SPLASH_PAGE: (BuildContext context) => new SplashPage(),
+      },
     );
   }
 }
