@@ -1,5 +1,5 @@
 name: faarun
-description: Faarun application
+description: Puiya application
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -21,6 +21,9 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+
+
+
   flutter:
     sdk: flutter
 
@@ -36,7 +39,23 @@ dependencies:
   url_launcher: ^5.4.7
   auto_size_text: ^2.1.0
   easy_listview: ^0.1.3
-
+  http: ^0.12.1
+  transparent_image: ^1.0.0
+  bubble: ^1.1.9+1
+  path_provider: ^1.6.8
+  pref_dessert: ^0.5.1
+  json_serializable: ^3.3.0
+  json_annotation: ^3.0.1
+  flutter_money_formatter: ^0.8.3
+  cloud_firestore: ^0.13.5
+  flutter_launcher_name: ^0.0.1
+  validators: ^2.0.0+1
+  google_maps_flutter: ^0.5.28+1
+  location: ^3.0.2
+  intl: ^0.15.8
+  flutter_custom_dialog: ^1.0.19
+  cached_network_image: ^2.2.0+1
+  connectivity: ^0.4.8+6
 
 
 dev_dependencies:
@@ -63,6 +82,13 @@ flutter:
     - assets/images/bg_top.png
     - assets/videos/splash1440x3040.mp4
     - assets/images/bg_footer.png
+    - assets/images/icon_cart.png
+    - assets/images/loading_300x300_1.gif
+    - assets/images/loading_500x300.gif
+    - assets/images/about_918x522.jpg
+    - assets/images/logo_puiya.jpg
+    - assets/images/hotline1.png
+    - assets/images/hotline2.png
     - assets/images/
     - assets/videos/
 
@@ -96,3 +122,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_name:
+  name: "ปุ๋ยยา"

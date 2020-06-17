@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106390196808",
+    "firebase_url": "https://faarun-be529.firebaseio.com",
+    "project_id": "faarun-be529",
+    "storage_bucket": "faarun-be529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106390196808:android:959d0dcb0b21b1e262be7d",
+        "android_client_info": {
+          "package_name": "com.faarun.faarun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106390196808-krso583u57bmm43l2ooreobckkts3tgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDduHVivWI2DnFjTqZDwSkfTRjMEojmDzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106390196808-krso583u57bmm43l2ooreobckkts3tgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

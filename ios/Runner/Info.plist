@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>faarun</string>
+	<string>ปุ๋ยยา</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -46,5 +46,12 @@
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
+    
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>อนุญาติให้แอปพลิเคชัน ปุ๋ยยา เปิดใช้งาน Location Service</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>อนุญาติให้แอปพลิเคชัน ปุ๋ยยา เปิดใช้งาน Location Service ตลอดเวลา</string>
 </dict>
 </plist>

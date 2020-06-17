@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'package:faarun/constant/constant.dart';
+import 'package:faarun/pages/finish_page.dart';
 import 'package:faarun/pages/home_page.dart';
+import 'package:faarun/pages/summary_page.dart';
 import 'package:flutter/material.dart';
 import 'package:faarun/pages/splash_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -45,6 +47,8 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         HOME_PAGE: (BuildContext context) => new HomePage(),
         SPLASH_PAGE: (BuildContext context) => new SplashPage(),
+        SUMMARY_PAGE: (BuildContext context) => new SummaryPage(),
+        FINISH_PAGE:(BuildContext context) => new FinishPage(),
       },
     );
   }

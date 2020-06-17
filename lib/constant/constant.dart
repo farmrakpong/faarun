@@ -1,13 +1,32 @@
 String HOME_PAGE='/HomePage',
        SPLASH_PAGE='/SplashPage',
-       TITLE='FAARUN APP',
+       PRODUCT_PAGE='/ProductPage',
+       SUMMARY_PAGE='/SummaryPage',
+       FINISH_PAGE='/FinishPage',
+       TITLE='ปุ๋ยยา',
        DISCRIPTION='สั่งสะดวก ส่งสบาย ส่งไว ส่งทั่วไทย',
        BTN_TXT_CHECKBILL="เช็คบิล",
+       BTN_TXT_BUY="สั่งซื้อ",
+       BTN_TXT_GOSHOPING="ช็อปกันเลย",
+       BTN_TXT_YES="ใช่",
+       BTN_TXT_NO="ไม่",
        COMPANY_NAME="บริษัท ฟ้าอรุณพืชผลเพื่อไทย จำกัด",
        COMPANY_ADDRESS1="888 ม.14 ต.จรเข้สามพัน",
        COMPANY_ADDRESS2="อ.อู่ทอง จ.สุพรรณบุรี 72160",
        COMPANY_PHONE="035-969-696",
-       BTN_TXT_BUY="สั่งซื้อ"
+       KEY_CURRENT_CARTS_PRODUCT_ID ="CurrentCartsProductId",
+       KEY_CURRENT_CARTS_QTY ="CurrentCartsQty",
+       KEY_CURRENT_CARTS_PRODUCT_PRICE="CurrentCartsProductPrice",
+       KEY_CURRENT_CARTS_PRODUCT_IMGTHUMB ="CurrentCartsProductImgThumb",
+       KEY_CURRENT_CARTS_PRODUCT_NAME ="CurrentCartsProductName",
+       KEY_CURRENT_CARTS_PRODUCT_CATID ="CurrentCartsProductCatId",
+       KEY_USER_NAME = "UserName",
+       KEY_USER_PHONE = "UserPhone",
+       KEY_USER_LAT = "UserLat",
+       KEY_USER_LONG = "UserLong",
+       KEY_USER_ADDRESS = "UserAddress",
+       KEY_USER_CODESALE = "UserCodeSale"
+
 ;
 
 int SUM_CART=0;
